@@ -1,0 +1,51 @@
+.introduction {
+    margin-top: 10rem;
+}
+
+.introduction h1 {
+    font-family: var(--altFont);
+    color: var(--blue);
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: 100;
+    line-height: 1;
+}
+
+.introduction h2 {
+    font-size: clamp(36px, 8vw, 70px);
+    font-weight: 600;
+    color: var(--lightgrey);
+    line-height: 1.8;
+}
+
+.introduction h3 {
+    font-size: clamp(36px, 8vw, 70px);
+    font-weight: 600;
+    color: #a7a7a7;
+    line-height: 1;
+}
+
+.introduction p {
+    color: #a7a7a7;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.introduction button {
+    background: none;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    border-radius: 4px;
+    padding: 0.9rem 2.2rem;
+    margin-top: 3rem;
+    font-family: var(--altFont);
+    font-size: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.introduction button:hover {
+    background-color: var(--blue);
+    color: #181818;
+}
