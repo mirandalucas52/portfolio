@@ -1,0 +1,33 @@
+.navHeader {
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.268);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 4rem;
+}
+
+.navHeader img {
+    width: 42px;
+}
+
+.navHeader ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navHeader a {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--lightgrey);
+    transition: 0.3s;
+}
+
+.navHeader a:hover {
+    color: var(--blue);
+}
+
+.navHeader span {
+    font-family: var(--altFont);
+    color: var(--blue);
+}
