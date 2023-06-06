@@ -9,6 +9,17 @@
     color: var(--lightgrey);
 }
 
+.about h1::after {
+    width: 25%;
+    max-width: 490px;
+    height: 1px;
+    background: rgb(68, 68, 68);
+    content: "";
+    margin-left: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .about h1 span {
     font-family: var(--altFont);
     font-size: clamp(18px, 5vw, 22px);
@@ -16,12 +27,52 @@
     color: var(--blue);
 }
 
-.aboutParagraph {
+.aboutArticle {
     color: var(--grey);
     font-size: 18px;
     display: flex;
+    line-height: 1.6;
 }
 
-.aboutParagraph img {
+.aboutArticle p {
+    margin-right: 1rem;
+}
+
+.aboutArticle p span {
+    color: var(--blue);
+}
+
+.aboutArticle img {
     width: 255px;
+}
+
+.aboutFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.about ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 3.5rem;
+    overflow: hidden;
+    list-style: none;
+}
+
+.about li {
+    position: relative;
+    margin-bottom: 10px px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: var(--grey);
+}
+
+.about li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    font-size: 15px;
+    color: var(--blue);
 }
