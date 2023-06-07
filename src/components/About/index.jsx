@@ -3,7 +3,7 @@ import Photo from "../../images/pfp.webp";
 
 function About() {
     return (
-        <section className="about">
+        <section className="about" id="about">
             <h1>
                 <span>01. </span>À propos
             </h1>
@@ -43,7 +43,7 @@ function About() {
                         <li>Postman</li>
                     </ul>
                 </div>
-                <div>
+                <div className="imgWrap">
                     <img src={Photo} alt="Lucas" />
                 </div>
             </article>

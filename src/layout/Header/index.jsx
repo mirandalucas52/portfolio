@@ -8,17 +8,17 @@ function Header() {
                 <img src={logo} alt="logo" />
                 <ul>
                     <li>
-                        <a href="none">
+                        <a href="#about">
                             <span>01. </span>À propos
                         </a>
                     </li>
                     <li>
-                        <a href="none">
+                        <a href="#myProjects">
                             <span>02. </span>Mes projets
                         </a>
                     </li>
                     <li>
-                        <a href="none">
+                        <a href="#contact">
                             <span>03. </span>Me contacter
                         </a>
                     </li>

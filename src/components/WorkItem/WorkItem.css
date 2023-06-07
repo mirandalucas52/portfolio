@@ -1,0 +1,41 @@
+.workItem {
+    width: 350px;
+    border: #2d2d2d 1px solid;
+    background-color: #242424;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    margin: 1rem;
+    padding: 1.5rem 1.3rem 1.5rem 1.3rem;
+}
+
+.workItem h2 {
+    color: var(--lightgrey);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.workItem p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--grey);
+    margin-bottom: 1.1rem;
+}
+
+.workItem button {
+    color: var(--blue);
+    background: none;
+    border: var(--blue) solid 2px;
+    padding: 0.5rem 1.6rem;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--mainFont);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.workItem button:hover {
+    background-color: var(--blue);
+    color: #242424;
+}

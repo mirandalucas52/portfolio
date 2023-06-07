@@ -1,7 +1,7 @@
 [
     {
         "id": "c67ab1a7",
-        "title": "Booki",
+        "title": "Reservia",
         "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
         "pictures": [
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
@@ -10,16 +10,8 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
-        "description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-        "role": "5",
-        "details": "Ile de France - Paris 17e",
-        "technologies": [
-            "Équipements de base",
-            "Micro-Ondes",
-            "Douche italienne",
-            "Frigo",
-            "WIFI"
-        ]
+        "description": "Intégration d'une maquette pour une agence de reservation de vacances, en HTML/CSS...",
+        "tags": ["HTML", "CSS", "Figma", "Github"]
     },
     {
         "id": "b2123946",
@@ -33,22 +25,8 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
         ],
-        "description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
-        "host": {
-            "name": "Della Case",
-            "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
-        },
-        "rating": "4",
-        "location": "Ile de France - Paris 10e",
-        "equipments": [
-            "Parking",
-            "Sèche Cheveux",
-            "Machine à laver",
-            "Wi-fi",
-            "Cuisine équipée",
-            "Télévision"
-        ],
-        "tags": ["Canal Saint Martin", "République", "Appartement"]
+        "description": "Conception d'un site portfolio d'une architecte d'intérieur en Javascript...",
+        "tags": ["Javascript", "NodeJS", "HTML", "CSS", "Figma", "Swagger API"]
     },
     {
         "id": "c67348a7",
@@ -61,21 +39,8 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
-        "description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-        "host": {
-            "name": "Nathalie Jean",
-            "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
-        "rating": "5",
-        "location": "Ile de France - Paris 17e",
-        "equipments": [
-            "Équipements de base",
-            "Micro-Ondes",
-            "Douche italienne",
-            "Frigo",
-            "WIFI"
-        ],
-        "tags": ["Batignolle", "Montmartre"]
+        "description": "Veille informationnelle, organisation et présentation de la solution technique pour un site de menus au client.",
+        "tags": ["Notion", "PowerPoint", "AGILE"]
     },
     {
         "id": "c623aba7",
@@ -88,21 +53,8 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
-        "description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-        "host": {
-            "name": "Nathalie Jean",
-            "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
-        "rating": "5",
-        "location": "Ile de France - Paris 17e",
-        "equipments": [
-            "Équipements de base",
-            "Micro-Ondes",
-            "Douche italienne",
-            "Frigo",
-            "WIFI"
-        ],
-        "tags": ["Batignolle", "Montmartre"]
+        "description": "Optimisation SEO et débogage d'un site de photographe...",
+        "tags": ["Javascript", ""]
     },
     {
         "id": "c67a30a7",
@@ -115,21 +67,8 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
-        "description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-        "host": {
-            "name": "Nathalie Jean",
-            "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
-        "rating": "5",
-        "location": "Ile de France - Paris 17e",
-        "equipments": [
-            "Équipements de base",
-            "Micro-Ondes",
-            "Douche italienne",
-            "Frigo",
-            "WIFI"
-        ],
-        "tags": ["Batignolle", "Montmartre"]
+        "description": "Création d'une application web de location immobilière avec React...",
+        "tags": ["React", "Javascript", "NodeJS"]
     },
     {
         "id": "c67ab821",
@@ -142,20 +81,7 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
-        "description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-        "host": {
-            "name": "Nathalie Jean",
-            "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-        },
-        "rating": "5",
-        "location": "Ile de France - Paris 17e",
-        "equipments": [
-            "Équipements de base",
-            "Micro-Ondes",
-            "Douche italienne",
-            "Frigo",
-            "WIFI"
-        ],
-        "tags": ["Batignolle", "Montmartre"]
+        "description": "Développement du back-end d'un site de notation de livres avec NodeJS...",
+        "tags": ["MongoDB", "NodeJS", "Javascript", "Nodemon", "Postman", "API"]
     }
 ]

@@ -1,5 +1,5 @@
 .about {
-    margin-top: 20rem;
+    padding-top: 7rem;
 }
 
 .about h1 {
@@ -44,6 +44,30 @@
 
 .aboutArticle img {
     width: 255px;
+    height: 255px;
+}
+
+.aboutArticle .imgWrap {
+    width: 255px;
+    height: 255px;
+}
+
+.aboutArticle .imgWrap::after {
+    transition: ease 400ms;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -245px;
+    left: 15px;
+    border: 2px solid var(--blue);
+    display: block;
+    border-radius: 3px;
+}
+
+.aboutArticle .imgWrap:hover::after {
+    transform: translateX(-17px) translateY(-21px);
 }
 
 .aboutFlex {
@@ -63,6 +87,7 @@
 
 .about li {
     position: relative;
+    z-index: 1;
     margin-bottom: 10px px;
     padding-left: 20px;
     font-size: 18px;

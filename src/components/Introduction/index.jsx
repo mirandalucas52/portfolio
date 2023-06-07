@@ -13,7 +13,7 @@ function Introduction() {
                 frontend junior !
             </p>
             <a href="https://github.com/mirandalucas52">
-                <button class="monGithub">Voici mon GitHub!</button>
+                <button>Voici mon GitHub!</button>
             </a>
         </div>
     );
