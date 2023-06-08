@@ -11,7 +11,11 @@ function About() {
                 <div className="aboutFlex">
                     <p>
                         Bonjour, je m’appelle Lucas et j’adore créer des sites
-                        internet. Mon intérêt pour ce domaine s’est développé
+                        internet.
+                        <span>
+                            {" "}
+                            Mon intérêt pour ce domaine s’est développé{" "}
+                        </span>
                         lors de mon stage à Comme un Arbre! au cours duquel j’ai
                         pu découvrir le métier de développeur web. J’ai d’abord
                         commencé par faire un DUT TC mais rapidement je me suis
@@ -33,12 +37,12 @@ function About() {
                         récemment travaillés :
                     </p>
                     <ul>
-                        <li>JavaScript</li>
-                        <li>Notion</li>
-                        <li>MongoDB</li>
                         <li>React</li>
-                        <li>Figma</li>
+                        <li>Javascript</li>
+                        <li>MongoDB</li>
                         <li>Node.js</li>
+                        <li>Figma</li>
+                        <li>Notion</li>
                         <li>Express</li>
                         <li>Postman</li>
                     </ul>

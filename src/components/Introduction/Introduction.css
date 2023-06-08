@@ -1,5 +1,5 @@
 .introduction {
-    margin-top: 10rem;
+    margin-top: 15rem;
     margin-bottom: 14rem;
 }
 
@@ -31,6 +31,10 @@
     font-weight: 400;
     margin-top: 1rem;
     line-height: 1.5;
+}
+
+.introduction p span {
+    color: var(--blue);
 }
 
 .introduction button {

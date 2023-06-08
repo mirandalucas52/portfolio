@@ -1,11 +1,26 @@
 import "./Header.css";
 import logo from "../../images/New Project.svg";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
+    useEffect(() => {
+        window.onscroll = function () {
+            scrollRotate();
+        };
+    }, []);
+
+    function scrollRotate() {
+        const image = document.getElementById("logo-image");
+        image.style.transform = "rotate(" + window.pageYOffset / 1.7 + "deg)";
+    }
+
     return (
         <header>
             <nav className="navHeader">
-                <img src={logo} alt="logo" />
+                <Link to="/">
+                    <img id="logo-image" src={logo} alt="logo" />
+                </Link>
                 <ul>
                     <li>
                         <a href="#about">

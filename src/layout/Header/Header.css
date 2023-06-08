@@ -1,7 +1,7 @@
 header {
     position: fixed;
     top: 0;
-    background-color: #181818;
+    background-color: var(--backgroundColor);
     z-index: 10;
     width: 100%;
 }

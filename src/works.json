@@ -11,7 +11,7 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
         "description": "Intégration d'une maquette pour une agence de reservation de vacances, en HTML/CSS...",
-        "tags": ["HTML", "CSS", "Figma", "Github", "W3C"]
+        "tags": ["HTML", "CSS", "Figma", "Github"]
     },
     {
         "id": "b2123946",
@@ -40,7 +40,7 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
         "description": "Veille informationnelle, organisation et présentation de la solution technique pour un site de menus au client...",
-        "tags": ["Notion", "PowerPoint", "AGILE", "Kanban", "Veille"]
+        "tags": ["Notion", "PowerPoint", "AGILE"]
     },
     {
         "id": "c623aba7",
@@ -76,7 +76,7 @@
             "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         ],
         "description": "Création d'une application web de location immobilière avec React...",
-        "tags": ["React", "Javascript", "NodeJS", "Components", "JSON"]
+        "tags": ["React", "Javascript", "NodeJS"]
     },
     {
         "id": "c67ab821",

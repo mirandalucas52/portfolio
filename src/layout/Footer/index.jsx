@@ -3,9 +3,7 @@ import "./Contact.css";
 function Contact() {
     return (
         <footer className="contact" id="contact">
-            <h1>
-                <span>03.</span> Me contacter
-            </h1>
+            <h1>Me contacter</h1>
             <ul>
                 <li>
                     <a href="mailto:mirandalucas52@gmail.com">
@@ -20,7 +18,7 @@ function Contact() {
                         Mon Linkedin
                     </a>
                 </li>
-                <li>Seine-et-Marne</li>
+                <li>Ile-de-France</li>
             </ul>
         </footer>
     );

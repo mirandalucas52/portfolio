@@ -9,8 +9,9 @@ function Introduction() {
             <p>
                 J'ai 21 ans et je suis spécialisé dans le frontend ainsi que le
                 web design mais j'ai aussi des compétences en backend. En ce
-                moment, je suis à la recherche d'un job en tant que développeur
-                frontend junior !
+                moment, je suis
+                <span> à la recherche d'un job </span> en tant que
+                <span> développeur frontend junior !</span>
             </p>
             <a href="https://github.com/mirandalucas52">
                 <button>Voici mon GitHub!</button>
