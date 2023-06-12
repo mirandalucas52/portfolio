@@ -133,7 +133,7 @@ table {
 }
 
 body {
-    margin: 0;
+    margin: 0 2rem;
     background-color: var(--backgroundColor);
 }
 
@@ -149,4 +149,15 @@ code {
     --backgroundColor: #181818;
     --mainFont: "Roboto";
     --altFont: "Quantico";
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(30vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }

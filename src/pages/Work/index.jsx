@@ -1,6 +1,6 @@
-import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import "./Work.css";
+import { useEffect } from "react";
 
 import datas from "../../works.json";
 
@@ -8,17 +8,32 @@ function Work() {
     const { id } = useParams();
     const work = datas.find((data) => data.id === id);
 
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "instant" });
+    }, []);
+
     return (
-        <React.Fragment>
-            <main>
-                <section>
-                    <article>
-                        <img src={work.cover} alt="" />
-                        <h1>{work.title}</h1>
-                    </article>
-                </section>
-            </main>
-        </React.Fragment>
+        <main className="workPage">
+            <h1>{work.title}</h1>
+            <img src={work.cover} alt={work.title} />
+            <ul className="tags">
+                {work.tags.map((tags, index) => (
+                    <li key={{ index }}>{tags}</li>
+                ))}
+            </ul>
+            <a className="linkWork" href={work.github}>
+                Voir le Github
+            </a>
+            <h2>Contexte</h2>
+            <p>{work.contexte}</p>
+            <h3>Mon rôle</h3>
+            <p>{work.role}</p>
+            <h4>En détails</h4>
+            <p>{work.details}</p>
+            <Link className="backToPortfolio" to={"/"}>
+                <button>Retour au portfolio</button>
+            </Link>
+        </main>
     );
 }
 

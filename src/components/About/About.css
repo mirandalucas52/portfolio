@@ -101,3 +101,29 @@
     font-size: 15px;
     color: var(--blue);
 }
+
+.flexAbout {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutArticle {
+    opacity: 0;
+    transition: opacity 2s ease, transform 0.7s ease;
+    transform: translateY(200px);
+}
+
+.aboutArticle.show {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+@media (max-width: 914px) {
+    .aboutArticle {
+        flex-direction: column;
+    }
+
+    .about .imgWrap {
+        margin: 0 auto;
+    }
+}

@@ -9,6 +9,8 @@
     font-size: clamp(16px, 3vw, 20px);
     font-weight: 100;
     line-height: 1;
+    animation: animate 0.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: forwards;
 }
 
 .introduction h2 {
@@ -16,6 +18,10 @@
     font-weight: 600;
     color: var(--lightgrey);
     line-height: 1.8;
+    animation: animate 0.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
 }
 
 .introduction h3 {
@@ -23,6 +29,10 @@
     font-weight: 600;
     color: #a7a7a7;
     line-height: 1;
+    animation: animate 0.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
 }
 
 .introduction p {
@@ -31,6 +41,10 @@
     font-weight: 400;
     margin-top: 1rem;
     line-height: 1.5;
+    animation: animate 0.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
 }
 
 .introduction p span {
@@ -48,6 +62,10 @@
     font-size: 15px;
     transition: 0.3s;
     cursor: pointer;
+    animation: animate 0.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
 }
 
 .introduction button:hover {

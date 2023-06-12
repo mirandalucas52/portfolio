@@ -12,7 +12,7 @@ function Header() {
 
     function scrollRotate() {
         const image = document.getElementById("logo-image");
-        image.style.transform = "rotate(" + window.pageYOffset / 1.7 + "deg)";
+        image.style.transform = "rotate(" + window.scrollY / 1.7 + "deg)";
     }
 
     return (

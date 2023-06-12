@@ -1,9 +1,14 @@
 import "./MyProjects.css";
 import WorkItem from "../WorkItem/index";
 import { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 function MyProjects() {
     const [datas, setDatas] = useState([]);
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        threshold: 0.2,
+    });
 
     useEffect(() => {
         const fetchData = async () => {
@@ -15,7 +20,11 @@ function MyProjects() {
     }, []);
 
     return (
-        <section className="myProjects" id="myProjects">
+        <section
+            className={`myProjects ${inView ? "show" : ""}`}
+            ref={ref}
+            id="myProjects"
+        >
             <h1>
                 <span>02. </span>Mes projets
             </h1>

@@ -1,0 +1,127 @@
+main {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+*::selection {
+    background-color: var(--blue);
+    color: var(--backgroundColor);
+}
+
+.workPage {
+    color: var(--lightgrey);
+    margin-bottom: 15vh;
+}
+
+.workPage .tags {
+    color: var(--blue);
+    margin-top: 1rem;
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    cursor: default;
+}
+
+.workPage .tags li {
+    font-weight: 500;
+    background-color: #1b232d;
+    line-height: 1.25rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.workPage .tags li:hover {
+    background-color: var(--blue);
+    color: #1b232d;
+}
+
+.workPage a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.workPage h1 {
+    padding-top: 25vh;
+    font-size: clamp(36px, 8vw, 70px);
+    font-weight: 600;
+    text-align: center;
+    animation: animate 0.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: forwards;
+}
+
+.workPage img {
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    animation: animate 0.9s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.workPage h2,
+.workPage h3,
+.workPage h4 {
+    font-size: clamp(25px, 4vw, 50px);
+    margin-top: 10vh;
+    font-weight: 600;
+}
+
+.workPage p {
+    font-size: 16px;
+    margin-top: 2rem;
+    line-height: 1.7;
+}
+
+.backToPortfolio button {
+    margin-top: 3rem;
+    cursor: pointer;
+    background: var(--backgroundColor);
+    color: var(--blue);
+    padding: 0.5rem 1.6rem;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--mainFont);
+    border-radius: 4px;
+    transition: 0.3s;
+    border: var(--blue) solid 2px;
+}
+
+.backToPortfolio button:hover {
+    background: var(--blue);
+    color: var(--backgroundColor);
+}
+
+.linkWork {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.linkWork:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: p0;
+    width: 0%;
+    height: 1px;
+    background-color: var(--blue);
+    transition: width 0.5s ease;
+    transform-origin: left;
+}
+
+.linkWork:hover:before {
+    width: 100%;
+}

@@ -1,95 +1,77 @@
 [
     {
-        "id": "c67ab1a7",
-        "title": "Reservia",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-        ],
-        "description": "Intégration d'une maquette pour une agence de reservation de vacances, en HTML/CSS...",
-        "tags": ["HTML", "CSS", "Figma", "Github"]
-    },
-    {
-        "id": "b2123946",
-        "title": "Sophie Bluel",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-        "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
-        ],
-        "description": "Conception d'un site portfolio d'une architecte d'intérieur en Javascript...",
-        "tags": ["Javascript", "NodeJS", "HTML", "CSS", "Figma", "Swagger API"]
-    },
-    {
-        "id": "c67348a7",
-        "title": "Webgencia",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-        ],
-        "description": "Veille informationnelle, organisation et présentation de la solution technique pour un site de menus au client...",
-        "tags": ["Notion", "PowerPoint", "AGILE"]
-    },
-    {
-        "id": "c623aba7",
-        "title": "Nina Carducci",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-        ],
-        "description": "Optimisation SEO et débogage d'un site de photographe...",
-        "tags": [
-            "Javascript",
-            "SEO",
-            "HTML",
-            "CSS",
-            "Wave",
-            "Meta",
-            "Rich Snippet"
-        ]
-    },
-    {
         "id": "c67a30a7",
         "title": "Kasa",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-        ],
+        "cover": "https://zupimages.net/up/23/23/uaka.png",
         "description": "Création d'une application web de location immobilière avec React...",
-        "tags": ["React", "Javascript", "NodeJS"]
+        "contexte": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. La CTO a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance.",
+        "role": "J'ai travaillé sur le projet Kasa en tant que développeur front-end pour développer la nouvelle plateforme web en collaboration avec la CTO et l'UI designer.",
+        "details": "J'ai été amené à démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives), tout en prenant en compte les contraintes techniques de l'entreprise.",
+        "tags": ["React", "Javascript", "NodeJS"],
+        "github": "https://github.com/mirandalucas52/kasa"
     },
     {
         "id": "c67ab821",
         "title": "Mon Vieux Grimoire",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "pictures": [
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-        ],
+        "cover": "https://zupimages.net/up/23/23/ifbt.png",
         "description": "Développement du back-end d'un site de notation de livres avec NodeJS...",
-        "tags": ["MongoDB", "NodeJS", "Javascript", "Nodemon", "Postman", "API"]
+        "contexte": "Le Vieux Grimoire est une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres. Le site s’appellera “Mon Vieux Grimoire”, et permettra aux membres d’ajouter un nouveau livre et de mettre une note visible par le public.",
+        "role": "J'ai travaillé sur le projet Mon Vieux Grimoire en tant que développeur back-end pour mettre un place une API ainsi qu'une base de donnée.",
+        "details": "J'ai été amené à créer une API en suivant un document de spécifications techniques tout en prenant en compte la taille des images pour que le projet soit conforme aux bonnes pratiques de Green Code. J'ai aussi dû stocker des données de manière sécurisée, mettre en oeuvre des opérations CRUD de manière sécurisée et implémenter un modèle de logique de données conformément à la réglementation.",
+        "tags": [
+            "MongoDB",
+            "NodeJS",
+            "Javascript",
+            "Green Code",
+            "Nodemon",
+            "Postman",
+            "API"
+        ],
+        "github": "https://github.com/mirandalucas52/mon-vieux-grimoire"
+    },
+
+    {
+        "id": "b2123946",
+        "title": "Sophie Bluel",
+        "cover": "https://zupimages.net/up/23/23/i93f.png",
+        "description": "Conception d'un site portfolio d'une architecte d'intérieur en Javascript...",
+        "contexte": "ArchiWebos est une agence qui s'occupe de la conception du site portfolio d'une architecte d'intérieur. L'HTML de ce portoflio est déjà effectué mais il manque la partie Javascript pour rendre le site dynamique, c'est là que j'interviens.",
+        "role": "J'ai travaillé sur le projet du site portfolio en tant que développeur front-end pour développer la partie Javascript du site pour permettre de récupérer les travaux de l'architecte ainsi que créer un panel admin.",
+        "details": "J'ai été amené à récupérer les données provenant d'une API pour les afficher sur le site web ainsi que la possibilité de les filtrer. Il y a aussi l'ajout de la possibilité d'ajouter, modifier et supprimer un projet si l'utilisateur est connecté en tant qu'admin.",
+        "tags": ["Javascript", "NodeJS", "HTML", "CSS", "Figma", "Swagger API"],
+        "github": "https://github.com/mirandalucas52/Sophie-Bluel"
+    },
+    {
+        "id": "c623aba7",
+        "title": "Nina Carducci",
+        "cover": "https://zupimages.net/up/23/23/j55w.png",
+        "description": "Optimisation SEO et débogage d'un site de photographe...",
+        "contexte": "J'analysais plusieurs sites internet à la recherche de nouveaux clients, parmis mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé un ami. Cette dernière accepta ma demande en me demandant une optimisation de son site.",
+        "role": "J'ai travaillé sur ce projet en tant que développeur freelance pour optimiser le site web d'un client et lui fournir un rapport détaillé de mon intervention.",
+        "details": "Le site était relativement long à charger étant donné que les images n'étaient pas redimensionné correctement et donc elle aurait la possibilité de gagner énormément de visiteurs si son site était optimisé pour les moteurs de recherche. Je lui ai fournis un document d'audit qui reprends les grandes lignes des problèmes de performances rencontré. En tout, j'ai fais une optimisation globale du site, une mise en place du référencement localen utilisant Schema.org, ajouté les balises meta pour les réseaux sociaux, amélioré l'accessibilité du site ainsi qu'un rapport d'optimisation présentant mes actions et leur impact.",
+        "tags": ["Javascript", "SEO", "HTML", "CSS", "Wave", "Rich Snippet"],
+        "github": "https://github.com/mirandalucas52/nina_carducci"
+    },
+    {
+        "id": "c67ab1a7",
+        "title": "Booki",
+        "cover": "https://zupimages.net/up/23/23/ffq6.png",
+        "description": "Intégration d'une maquette pour une agence de reservation de vacances, en HTML/CSS...",
+        "contexte": "L’entreprise souhaitait développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J’ai été chargé d’intégrer l'interface du site avec du code HTML et CSS. Tous les liens de la maquette seront inactifs à cette étape.",
+        "role": "J’ai travaillé sur le projet Booki en tant que alternant développeur web, en collaboration avec l'UI designer, et la CTO.",
+        "details": "J'ai été amené à suivre une note de synthèse qui regroupe les spécifications et contraintes techniques à respecter. Le site devait être entièrement responsive et c'était mon premier projet. J'ai versionné mon projet sur Git tout au long de son développement pour que la CTO ait accès à mon travail.",
+        "tags": ["HTML", "CSS", "Figma", "Github"],
+        "github": "https://github.com/mirandalucas52/Booki"
+    },
+    {
+        "id": "c67348a7",
+        "title": "Webgencia",
+        "cover": "https://zupimages.net/up/23/23/srr2.png",
+        "description": "Veille informationnelle, organisation et présentation de la solution technique pour un site de menus au client...",
+        "contexte": "Qwenta souhaitait faire développer un “Menu Maker”. Il s’agit d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics.",
+        "role": "J'ai travaillé sur ce projet en tant qu'assistant chef de projet en collaboration avec le Product Owner ainsi que le chef de projet de chez Qwenta.",
+        "details": "J'ai été amené à mener, préparer et planifier le projet de développement du site. Pour se faire, j'ai commencé par faire une veille technologique pour proposer des solutions aux problématiques existantes. J'ai par la suite déterminé les spécifications techniques du site et pour finir, organisé la gestion de projet du développement du site sous forme de Kanban sur Notion ainsi qu'en faisant un planning prévisionnel.Par la suite, j'ai présenté ce travail de veille et de planification au chef de projet.",
+        "tags": ["Notion", "PowerPoint", "AGILE"],
+        "github": ""
     }
 ]

@@ -70,3 +70,9 @@
     background-color: var(--blue);
     color: #1b232d;
 }
+
+@media (max-width: 914px) {
+    .workItem {
+        width: auto;
+    }
+}
