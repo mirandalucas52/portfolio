@@ -73,6 +73,6 @@
 
 @media (max-width: 914px) {
     .workItem {
-        width: auto;
+        margin: 0;
     }
 }
