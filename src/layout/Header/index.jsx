@@ -2,6 +2,7 @@ import "./Header.css";
 import logo from "../../images/New Project.svg";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -33,19 +34,19 @@ function Header() {
                 </Link>
                 <ul>
                     <li>
-                        <a href="#about">
+                        <HashLink to={"/#about"}>
                             <span>01. </span>À propos
-                        </a>
+                        </HashLink>
                     </li>
                     <li>
-                        <a href="#myProjects">
+                        <HashLink to={"/#myProjects"}>
                             <span>02. </span>Mes projets
-                        </a>
+                        </HashLink>
                     </li>
                     <li>
-                        <a href="#contact">
+                        <HashLink to={"/#contact"}>
                             <span>03. </span>Me contacter
-                        </a>
+                        </HashLink>
                     </li>
                 </ul>
                 <div
