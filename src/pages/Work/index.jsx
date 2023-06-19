@@ -18,7 +18,7 @@ function Work() {
             <img src={work.cover} alt={work.title} />
             <ul className="tags">
                 {work.tags.map((tags, index) => (
-                    <li key={{ index }}>{tags}</li>
+                    <li key={index}>{tags}</li>
                 ))}
             </ul>
             <a className="linkWork" href={work.github}>
@@ -26,11 +26,11 @@ function Work() {
             </a>
             <h2>Contexte</h2>
             <p>{work.contexte}</p>
-            <h3>Mon rôle</h3>
-            <p>{work.role}</p>
+            <h3>Problématique/Résolution</h3>
+            <p>{work.problématique}</p>
             <h4>En détails</h4>
             <p>{work.details}</p>
-            <Link className="backToPortfolio" to={"/"}>
+            <Link className="backToPortfolio" to={"/portfolio/"}>
                 <button>Retour au portfolio</button>
             </Link>
         </main>

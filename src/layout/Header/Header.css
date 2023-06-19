@@ -63,6 +63,7 @@ header {
         justify-content: center;
         text-align: center;
         align-items: center;
+        margin-top: -4rem;
     }
 
     .menuMobile ul li a {

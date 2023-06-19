@@ -29,22 +29,22 @@ function Header() {
     return (
         <header>
             <nav className="navHeader">
-                <Link to="/">
+                <Link to="/portfolio/">
                     <img id="logo-image" src={logo} alt="logo" />
                 </Link>
                 <ul>
                     <li>
-                        <HashLink to={"/#about"}>
+                        <HashLink to={"/portfolio/#about"}>
                             <span>01. </span>À propos
                         </HashLink>
                     </li>
                     <li>
-                        <HashLink to={"/#myProjects"}>
+                        <HashLink to={"/portfolio/#myProjects"}>
                             <span>02. </span>Mes projets
                         </HashLink>
                     </li>
                     <li>
-                        <HashLink to={"/#contact"}>
+                        <HashLink to={"/portfolio/#contact"}>
                             <span>03. </span>Me contacter
                         </HashLink>
                     </li>
@@ -62,24 +62,33 @@ function Header() {
                 <nav className="menuMobile">
                     <ul>
                         <li>
-                            <a href="#about" onClick={closeMenu}>
+                            <HashLink
+                                to={"/portfolio/#about"}
+                                onClick={closeMenu}
+                            >
                                 <span>01.</span>
                                 <br />À propos
-                            </a>
+                            </HashLink>
                         </li>
                         <li>
-                            <a href="#myProjects" onClick={closeMenu}>
+                            <HashLink
+                                to={"/portfolio/#myProjects"}
+                                onClick={closeMenu}
+                            >
                                 <span>02.</span>
                                 <br />
                                 Mes projets
-                            </a>
+                            </HashLink>
                         </li>
                         <li>
-                            <a href="#contact" onClick={closeMenu}>
+                            <HashLink
+                                to={"/portfolio/#contact"}
+                                onClick={closeMenu}
+                            >
                                 <span>03.</span>
                                 <br />
                                 Me contacter
-                            </a>
+                            </HashLink>
                         </li>
                     </ul>
                 </nav>

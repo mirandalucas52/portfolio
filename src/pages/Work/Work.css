@@ -83,8 +83,9 @@ main {
 .backToPortfolio button {
     margin-top: 3rem;
     cursor: pointer;
-    background: var(--backgroundColor);
-    color: var(--blue);
+
+    background: var(--blue);
+    color: var(--backgroundColor);
     padding: 0.5rem 1.6rem;
     font-size: 14px;
     font-weight: 500;
@@ -95,8 +96,8 @@ main {
 }
 
 .backToPortfolio button:hover {
-    background: var(--blue);
-    color: var(--backgroundColor);
+    background: var(--backgroundColor);
+    color: var(--blue);
 }
 
 .linkWork {

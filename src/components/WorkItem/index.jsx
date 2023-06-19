@@ -3,14 +3,14 @@ import "./WorkItem.css";
 
 function WorkItem(props) {
     return (
-        <Link className="link" to={`/work/${props.id}`}>
+        <Link className="link" to={`/portfolio/work/${props.id}`}>
             <article className="workItem">
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
                 <button>En savoir plus</button>
                 <ul>
                     {props.tags.map((tags, index) => (
-                        <li key={{ index }}>{tags}</li>
+                        <li key={index}>{tags}</li>
                     ))}
                 </ul>
             </article>
