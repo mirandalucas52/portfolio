@@ -109,6 +109,7 @@ main {
     color: #000;
     text-decoration: none;
     overflow: hidden;
+    margin-right: 2rem;
 }
 
 .linkWork:before {

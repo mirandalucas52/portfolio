@@ -8,7 +8,8 @@
         "problématique": "Un des problèmes rencontré lors de ce projet était la mise en place de bonnes pratiques. Je n'en connaissais aucune et au final, j'ai fais la découverte d'énormément de bonnes pratiques en React comme par exemple, chercher à créer des composants réutilisables, l'utilisation de key ou encore la gestion des états.",
         "details": "J'ai été amené à démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives), tout en prenant en compte les contraintes techniques de l'entreprise.",
         "tags": ["React", "Javascript", "NodeJS"],
-        "github": "https://github.com/mirandalucas52/kasa"
+        "github": "https://github.com/mirandalucas52/kasa",
+        "site": "https://kasa-lucas.netlify.app/"
     },
     {
         "id": "c67ab821",
@@ -53,6 +54,18 @@
         "github": "https://github.com/mirandalucas52/nina_carducci"
     },
     {
+        "id": "pe15t8a4",
+        "title": "Calculator Online",
+        "cover": "https://zupimages.net/up/23/30/4z1e.png",
+        "description": "Site de calculatrice permettant de changer le thème de couleur.",
+        "contexte": "Il s'agit d'un projet personnel qui m'a permis de me remettre dans le bain du JS vanilla étant donné que je ne faisais quasiment plus que du React.",
+        "problématique": "Le changement de thème était assez compliqué à gérer étant donné que je n'avais aucune idée de comment m'y prendre. J'ai opté pour des variables css qui changent en fonction du thème selectionné.",
+        "details": "Pour commencer, j'ai effectué une recherche approfondie pour comprendre les fonctionnalités nécessaires et les problématiques liées au développement de la calculatrice interactive. En utilisant mes compétences en JavaScript, j'ai créé les fonctions et les calculs requis pour les opérations mathématiques de base, assurant une précision et une fiabilité maximales. Ensuite, j'ai conçu l'interface utilisateur en utilisant HTML et CSS, en veillant à ce qu'elle soit conviviale, attrayante et responsive, s'adaptant facilement aux différents appareils et écrans.",
+        "tags": ["Javascript", "HTML", "CSS"],
+        "github": "https://github.com/mirandalucas52/calculator-online",
+        "site": "https://mirandalucas52.github.io/calculator-online/"
+    },
+    {
         "id": "c67ab1a7",
         "title": "Booki",
         "cover": "https://zupimages.net/up/23/23/ffq6.png",
@@ -61,7 +74,8 @@
         "problématique": "Il s'agissait d'un des premiers projets que je développais en responsive design donc je ne savais pas trop comment m'y prendre. Je me suis renseigné sur internet et me suis formé sur flexbox avec notamment Flexbox Froggy qui m'a permis de découvrir la propriété order qui m'a servit dans ce projet.",
         "details": "J'ai été amené à suivre une note de synthèse qui regroupe les spécifications et contraintes techniques à respecter. Le site devait être entièrement responsive et c'était mon premier projet. J'ai versionné mon projet sur Git tout au long de son développement pour que la CTO ait accès à mon travail.",
         "tags": ["HTML", "CSS", "Figma", "Github"],
-        "github": "https://github.com/mirandalucas52/Booki"
+        "github": "https://github.com/mirandalucas52/Booki",
+        "site": "https://lucasmirandabooki.netlify.app/"
     },
     {
         "id": "c67348a7",

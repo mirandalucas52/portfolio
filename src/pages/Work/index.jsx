@@ -21,6 +21,11 @@ function Work() {
                     <li key={index}>{tags}</li>
                 ))}
             </ul>
+            {work.site && (
+                <a className="linkWork" href={work.site}>
+                    Voir le site
+                </a>
+            )}
             <a className="linkWork" href={work.github}>
                 Voir le Github
             </a>
