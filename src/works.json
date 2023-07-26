@@ -57,7 +57,7 @@
         "id": "pe15t8a4",
         "title": "Calculator Online",
         "cover": "https://zupimages.net/up/23/30/4z1e.png",
-        "description": "Site de calculatrice permettant de changer le thème de couleur.",
+        "description": "Site de calculatrice permettant de changer le thème du site de couleur.",
         "contexte": "Il s'agit d'un projet personnel qui m'a permis de me remettre dans le bain du JS vanilla étant donné que je ne faisais quasiment plus que du React.",
         "problématique": "Le changement de thème était assez compliqué à gérer étant donné que je n'avais aucune idée de comment m'y prendre. J'ai opté pour des variables css qui changent en fonction du thème selectionné.",
         "details": "Pour commencer, j'ai effectué une recherche approfondie pour comprendre les fonctionnalités nécessaires et les problématiques liées au développement de la calculatrice interactive. En utilisant mes compétences en JavaScript, j'ai créé les fonctions et les calculs requis pour les opérations mathématiques de base, assurant une précision et une fiabilité maximales. Ensuite, j'ai conçu l'interface utilisateur en utilisant HTML et CSS, en veillant à ce qu'elle soit conviviale, attrayante et responsive, s'adaptant facilement aux différents appareils et écrans.",
