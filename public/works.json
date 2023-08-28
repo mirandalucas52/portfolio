@@ -5,8 +5,8 @@
         "cover": "https://zupimages.net/up/23/34/ka34.png",
         "description": "Développement frontend d'un site de location de voiture avec React...",
         "contexte": "Car Rental est une entreprise fictive me permettant de mettre en application mes connaissances en React pour créer un site complet avec plusieurs pages en faisant appel à un fichier JSON comprenant les infos requises.",
-        "problématique": "Il ne manque plus que la partie responsive à finaliser",
-        "details": "En cours de développement... J'arrive !",
+        "problématique": "Un des problèmes rencontré durant la création de cette application web à été de réussir à penser le développement du site web sous forme de composants réutilisables un maximum de fois.",
+        "details": "J'ai été amené à m'appuyer sur une maquette déjà existante pour développer l'ensemble de l'application, les composants React ainsi que les Routes tout en me souciant du responsive pour une expérience utilisateur optimale. Le site ne contient pas de Backend étant donné que je souhaite me spécialiser dans le Frontend et plus particulièrement avec React.",
         "tags": ["React", "NodeJS", "Javascript", "React-Router", "CSS"],
         "github": "https://github.com/mirandalucas52/car-rental",
         "site": "https://car-rental-lucas.netlify.app/"
