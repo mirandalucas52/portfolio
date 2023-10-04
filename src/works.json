@@ -1,5 +1,17 @@
 [
     {
+        "id": "wwq06m5a",
+        "title": "Habitat Services Menuiseries",
+        "cover": "https://zupimages.net/up/23/40/clp6.jpg",
+        "description": "Développement frontend d'un site vitrine pour un menuisier...",
+        "contexte": "Habitat Services Menuiseries est une entreprise qui cherche à moderniser sa présence en ligne en créant un site vitrine professionnel pour mettre en avant son savoir-faire artisanal. Cette démarche vise à attirer de nouveaux clients et à montrer ses réalisations exceptionnelles.",
+        "problématique": "L'un des défis majeurs que j'ai rencontré lors de la conception de ce site vitrine a été de développer une interface utilisateur esthétique et fonctionnelle tout en créant une nouvelle identité à l'entreprise (logo, charte graphique...).",
+        "details": "J'ai conçu des composants réutilisables pour afficher les différentes catégories et réalisations de l'entreprise. J'ai assuré que le site soit responsive et optimisé pour une expérience utilisateur fluide, que ce soit sur un ordinateur de bureau ou sur un appareil mobile.",
+        "tags": ["React", "EmailJS", "Javascript", "React-Router", "CSS"],
+        "github": "https://github.com/mirandalucas52/habitat-services-menuiseries",
+        "site": "https://mirandalucas52.github.io/habitat-services-menuiseries/"
+    },
+    {
         "id": "yam95r1k",
         "title": "Car Rental",
         "cover": "https://zupimages.net/up/23/34/ka34.png",
@@ -64,18 +76,6 @@
         "details": "Le site était relativement long à charger étant donné que les images n'étaient pas redimensionné correctement et donc elle aurait la possibilité de gagner énormément de visiteurs si son site était optimisé pour les moteurs de recherche. Je lui ai fournis un document d'audit qui reprends les grandes lignes des problèmes de performances rencontré. En tout, j'ai fais une optimisation globale du site, une mise en place du référencement local en utilisant Schema.org, ajouté les balises meta pour les réseaux sociaux, amélioré l'accessibilité du site ainsi qu'un rapport d'optimisation présentant mes actions et leur impact.",
         "tags": ["Javascript", "SEO", "HTML", "CSS", "Wave", "Rich Snippet"],
         "github": "https://github.com/mirandalucas52/nina_carducci"
-    },
-    {
-        "id": "pe15t8a4",
-        "title": "Calculator Online",
-        "cover": "https://zupimages.net/up/23/30/4z1e.png",
-        "description": "Site de calculatrice permettant de changer le thème du site de couleur.",
-        "contexte": "Il s'agit d'un projet personnel qui m'a permis de me remettre dans le bain du JS vanilla étant donné que je ne faisais quasiment plus que du React.",
-        "problématique": "Le changement de thème était assez compliqué à gérer étant donné que je n'avais aucune idée de comment m'y prendre. J'ai opté pour des variables css qui changent en fonction du thème selectionné.",
-        "details": "Pour commencer, j'ai effectué une recherche approfondie pour comprendre les fonctionnalités nécessaires et les problématiques liées au développement de la calculatrice interactive. En utilisant mes compétences en JavaScript, j'ai créé les fonctions et les calculs requis pour les opérations mathématiques de base, assurant une précision et une fiabilité maximales. Ensuite, j'ai conçu l'interface utilisateur en utilisant HTML et CSS, en veillant à ce qu'elle soit conviviale, attrayante et responsive, s'adaptant facilement aux différents appareils et écrans.",
-        "tags": ["Javascript", "HTML", "CSS"],
-        "github": "https://github.com/mirandalucas52/calculator-online",
-        "site": "https://mirandalucas52.github.io/calculator-online/"
     },
     {
         "id": "c67ab1a7",

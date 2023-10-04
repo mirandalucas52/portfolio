@@ -41,8 +41,8 @@ function About() {
                             <span> MongoDB</span>.
                             <br />
                             <br />
-                            Je suis actuellement à la recherche d'un emploi en
-                            tant que{" "}
+                            Je suis actuellement à la recherche d'une alternance
+                            en tant que{" "}
                             <span> développeur web frontend junior !</span>
                             <br />
                             <br />
